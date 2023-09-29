@@ -38,3 +38,9 @@ To connect the value of Perlin Noise to a figure to control its scale/location/c
 In this case for adding animation to the gray scale two dimensions cloudy image, the programmer add the frameCount to be the third dimension of the image:
 
 `float col = 255*noise(scale*x,scale*y,10*scale*frameCount);`
+
+By using the Perlin noise to control the scale, draw curve, and add animation, it will benefit the assignment. I still need to learn more by watching :ok_woman::
+
+- [x] [Coding Challenge: Perlin Noise Flow Field](https://www.youtube.com/watch?v=BjoM9oKOAKY)
+- [x] [Coding Challenge: Perlin Noise Loops](https://www.youtube.com/watch?v=ZI1dmHv3MeM)
+- [x] [Coding Challenge #136.2: Perlin Noise GIF Loops](https://www.youtube.com/watch?v=c6K-wJQ77yQ)
