@@ -11,4 +11,8 @@ The effect of ripples attracts me, which is triggered by dragging the mouse on t
 
 ![The stimulation of mouse movement.](Noise1.png)
 
+With time going on, the tiny random scale ripples grow larger, when they hit the edges of canvas, they get a force and go back as growing larger. Finally, the image gets engergetic with massive ripples:
+
+![As time goes by, the effects of massive ripples.](Noise2.png)
+
 ## Part 2: Coding Technique Exploration
