@@ -1,4 +1,4 @@
-# hello-world
+# Quiz 8
 The first file on my git hub.
 
 ## Part 1: Imaging Technique Inspiration
@@ -29,8 +29,12 @@ Perlin Noise is a tool in p5.js which can benefits the change of values to be st
 
 ![The smooth of change in Perlin Noise](Noise4.jpeg)
 
-To connect the value of Perlin Noise to a figure to control its scale/location/color/time, we have to use several dimensions for control all of these effects in the canvas, which ask us to use the nested for loops to visit every value of the figures, such as:
+To connect the value of Perlin Noise to a figure to control its scale/location/color/time, we have to use several dimensions for controlling all of these effects in the canvas, which ask us to use the nested for loops to visit every value of the figures, such as:
 
 ![The use of nested loops in Perlin Noise](Noise5.png)
 
 ([Drawing from noise, and then making animated loopy GIFs from there.](https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/))
+
+In this case for adding animation to the gray scale two dimensions cloudy image, the programmer add the frameCount to be the third dimension of the image:
+
+`float col = 255*noise(scale*x,scale*y,10*scale*frameCount);`
