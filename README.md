@@ -15,4 +15,12 @@ With time going on, the tiny random scale ripples grow larger, when they hit the
 
 ![As time goes by, the effects of massive ripples.](Noise2.png)
 
+As I plan to draw several dots in the assignment, the use of Perlin Noise in this reference can benefit the drawing of random but less messy figures by time. After decide to use Perlin Noise, I watched these tutorials:
+
+| Insights | Link |
+| ----------- | ----------- |
+| The basic rules of Perlin noise: A normal distribution of values between 0 and 1| [I.2: Introduction - Perlin Noise and p5.js Tutorial](https://www.youtube.com/watch?v=Qf4dIN99e2w) |
+| The one dimension Perlin noise and how to visualise it | [I.4: Graphing 1D Perlin Noise - Perlin Noise and p5.js Tutorial](https://www.youtube.com/watch?v=y7sgcFhk6ZM&list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM&index=5) |
+| The two dimension Perlin noise and visualise it by a gray scale added on each pixel| [I.5: 2D Noise - Perlin Noise and p5.js Tutorial](https://www.youtube.com/watch?v=ikwNrFvnL3g&list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM&index=6) |
+
 ## Part 2: Coding Technique Exploration
