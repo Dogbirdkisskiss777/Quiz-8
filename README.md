@@ -28,3 +28,9 @@ As I plan to draw several dots in the assignment, the use of Perlin Noise in thi
 Perlin Noise is a tool in p5.js which can benefits the change of values to be stable by its smooth curve of value:
 
 ![The smooth of change in Perlin Noise](Noise4.jpeg)
+
+To connect the value of Perlin Noise to a figure to control its scale/location/color/time, we have to use several dimensions for control all of these effects in the canvas, which ask us to use the nested for loops to visit every value of the figures, such as:
+
+![The use of nested loops in Perlin Noise](Noise5.png)
+
+([Drawing from noise, and then making animated loopy GIFs from there.](https://necessarydisorder.wordpress.com/2017/11/15/drawing-from-noise-and-then-making-animated-loopy-gifs-from-there/))
